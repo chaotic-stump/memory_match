@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:700,400);
+
+.row .col{
+  padding:0.75rem;
+}
+
+.box-cell{
+  border:2px solid gray;
+  height:170px;
+  border-radius:4px;
+  margin-top:3px;
+}
+.blue-cell{
+  background-color:blue;
+  color:white;
+  text-align: center;
+  vertical-align: middle;
+  font-size:24px;
+}
+body{
+  font-family: 'Lora', serif;
+}
+.title{
+  font-weight: 700;
+  color:slategrey;
+}
+.flip-text {
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 51px;
+    text-align: center;
+    padding: .6em 0;
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+    cursor:pointer;
+}
